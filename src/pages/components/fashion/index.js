@@ -1,11 +1,15 @@
+import { truncateText } from "@/pages/utils/utils";
 import Link from "next/link";
-import { truncateText } from "./utils/utils";
 
 /* eslint-disable @next/next/no-img-element */
 export default function Home({ data }) {
   console.log(data);
   const blogs = [...data].reverse();
 
+  if (data.length == 0) {
+    return <div className="min-h-screen mt-6 text-center text-4xl font-sans uppercase">there are on blog here</div>;
+  }
+  
   return (
     <div>
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-5 max-w-[1300px] mx-auto mt-6">
@@ -37,7 +41,7 @@ export default function Home({ data }) {
 
 export async function getServerSideProps() {
   // Fetch data from external API
-  const res = await fetch(`https://usama-mir-server-again.vercel.app/blog`);
+  const res = await fetch(`https://usama-mir-server-again.vercel.app/blog/fashion`);
   const data = await res.json();
 
   // Pass data to the page via props
