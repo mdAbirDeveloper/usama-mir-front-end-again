@@ -5,3 +5,13 @@ export const truncateText = (text, wordLimit) => {
     }
     return words.slice(0, wordLimit).join(' ') + '...';
   };
+
+  import React from 'react'
+  
+  const utils = () => {
+    return (
+      <div>utils</div>
+    )
+  }
+  
+  export default utils
