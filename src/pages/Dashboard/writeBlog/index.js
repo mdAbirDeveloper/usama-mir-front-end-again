@@ -89,7 +89,7 @@ const index = () => {
               className="select w-full input input-bordered"
               {...register("category")}
             >
-              <option disabled selected>
+              <option disabled selected value="">
                 Pick your Blog category
               </option>
               <option value="fashion">Fashion</option>
