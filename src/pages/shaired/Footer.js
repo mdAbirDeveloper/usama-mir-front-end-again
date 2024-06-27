@@ -1,7 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import { FaFacebook, FaTwitter, FaWhatsapp, FaYoutube } from "react-icons/fa6";
-import { BiLogoGmail } from "react-icons/bi";
+import { FaInstagram, FaPinterest, FaTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -26,11 +25,9 @@ const Footer = () => {
           <nav>
             <h6 className="footer-title opacity-100">Social</h6>
             <div className="grid grid-flow-col gap-4">
-              <FaTwitter className="text-3xl text-blue-600" />
-              <FaYoutube className="text-3xl text-red-600 bg-white rounded-3xl" />
-              <FaFacebook className="text-3xl bg-blue-600 rounded-xl" />
-              <FaWhatsapp className="text-3xl text-green-500" />
-              <BiLogoGmail className="text-3xl "/>
+              <FaTwitter className="text-3xl text-white" />
+              <FaPinterest className="text-3xl text-red-500"/>
+              <FaInstagram className="text-3xl text-red-500 bg-white rounded-xl"/>
             </div>
           </nav>
         </footer>

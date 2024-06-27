@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>http://localhost:3000/components/about</loc><lastmod>2024-06-26T04:33:57.758Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/components/writeForUs</loc><lastmod>2024-06-26T04:33:57.759Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://667ba921bdee9e7121347a2d--legendary-babka-248e5f.netlify.app</loc><lastmod>2024-06-26T05:57:44.783Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://667ba921bdee9e7121347a2d--legendary-babka-248e5f.netlify.app/Authentication/Authentication</loc><lastmod>2024-06-26T05:57:44.784Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://667ba921bdee9e7121347a2d--legendary-babka-248e5f.netlify.app/Dashboard</loc><lastmod>2024-06-26T05:57:44.784Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://667ba921bdee9e7121347a2d--legendary-babka-248e5f.netlify.app/Dashboard/deleteBlog</loc><lastmod>2024-06-26T05:57:44.784Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://667ba921bdee9e7121347a2d--legendary-babka-248e5f.netlify.app/Dashboard/message</loc><lastmod>2024-06-26T05:57:44.784Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://667ba921bdee9e7121347a2d--legendary-babka-248e5f.netlify.app/Dashboard/writeBlog</loc><lastmod>2024-06-26T05:57:44.784Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://667ba921bdee9e7121347a2d--legendary-babka-248e5f.netlify.app/DashboardLayout/DashboardLayout</loc><lastmod>2024-06-26T05:57:44.784Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://667ba921bdee9e7121347a2d--legendary-babka-248e5f.netlify.app/Layout/Layout</loc><lastmod>2024-06-26T05:57:44.784Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://667ba921bdee9e7121347a2d--legendary-babka-248e5f.netlify.app/components/about</loc><lastmod>2024-06-26T05:57:44.785Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://667ba921bdee9e7121347a2d--legendary-babka-248e5f.netlify.app/components/beauty</loc><lastmod>2024-06-26T05:57:44.785Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://667ba921bdee9e7121347a2d--legendary-babka-248e5f.netlify.app/components/contact</loc><lastmod>2024-06-26T05:57:44.785Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://667ba921bdee9e7121347a2d--legendary-babka-248e5f.netlify.app/components/fashion</loc><lastmod>2024-06-26T05:57:44.785Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://667ba921bdee9e7121347a2d--legendary-babka-248e5f.netlify.app/components/login</loc><lastmod>2024-06-26T05:57:44.785Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://667ba921bdee9e7121347a2d--legendary-babka-248e5f.netlify.app/components/writeForUs</loc><lastmod>2024-06-26T05:57:44.785Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://667ba921bdee9e7121347a2d--legendary-babka-248e5f.netlify.app/shaired/Footer</loc><lastmod>2024-06-26T05:57:44.785Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://667ba921bdee9e7121347a2d--legendary-babka-248e5f.netlify.app/shaired/Navber</loc><lastmod>2024-06-26T05:57:44.785Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://667ba921bdee9e7121347a2d--legendary-babka-248e5f.netlify.app/utils/utils</loc><lastmod>2024-06-26T05:57:44.785Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
 </urlset>

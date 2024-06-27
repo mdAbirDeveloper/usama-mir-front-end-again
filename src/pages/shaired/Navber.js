@@ -33,7 +33,7 @@ const Navber = () => {
             <div
               className={
                 nav
-                  ? "text-center z-20 fixed h-full w-full left-0  bg-blue-400"
+                  ? "text-center z-20 fixed h-full w-full left-0 bg-[#615956]"
                   : "fixed left-[-100%]"
               }
             >
@@ -59,13 +59,13 @@ const Navber = () => {
                   </Link>
                 </li>
                 <li className="text-white p-1 rounded text-md uppercase shadow-xl font-serif ">
-                  <Link onClick={closeNav} href={"/components/about"}>
-                    About
+                  <Link onClick={closeNav} href={"/components/contact"}>
+                    Contact
                   </Link>
                 </li>
                 <li className="text-white p-1 rounded text-md uppercase shadow-xl font-serif ">
-                  <Link onClick={closeNav} href={"/components/contact"}>
-                    Contact
+                  <Link onClick={closeNav} href={"/components/about"}>
+                    About
                   </Link>
                 </li>
                 {user ? (
@@ -113,10 +113,10 @@ const Navber = () => {
               <Link href={"/components/writeForUs"}>Write For Us</Link>
             </li>
             <li className="text-white p-1 rounded text-md mr-2 uppercase font-serif bg-[#615956]">
-              <Link href={"/components/about"}>About</Link>
+              <Link href={"/components/contact"}>Contact</Link>
             </li>
             <li className="text-white p-1 rounded text-md mr-2 uppercase font-serif bg-[#615956]">
-              <Link href={"/components/contact"}>Contact</Link>
+              <Link href={"/components/about"}>About</Link>
             </li>
             {user && (
               <li className="text-white text-md p-1 mr-2 bg-[#615956] uppercase font-serif">
