@@ -67,7 +67,7 @@ export default function Home() {
         {data.map((blog) => (
           <div
             key={blog._id}
-            className="card bg-base-100 w-96 shadow-xl hover:shadow-green-400"
+            className="card bg-base-100 md:w-96 w-full shadow-xl hover:shadow-green-400"
           >
             <figure className="px-5 pt-5">
               <img src={blog.image_1} alt={blog.title_1} className="rounded" />

@@ -4,9 +4,9 @@ import { FaInstagram, FaPinterest, FaTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div>
+    <div className="w-full">
       <div className="max-w-[1300px] mx-auto shadow-xl bg-[#615956] mt-20">
-        <footer className="footer text-white p-10 ">
+        <footer className="footer text-white p-10">
           <nav>
             <h6 className="footer-title opacity-100">Services</h6>
             <a className="link link-hover">Fashion Blog</a>
