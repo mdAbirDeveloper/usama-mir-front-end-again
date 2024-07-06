@@ -20,7 +20,7 @@ const updatedId = () => {
       setLoading(true);
       try {
         const response = await fetch(
-          `http://localhost:5000/updateBlog/${updatedId}`
+          `https://usama-mir-server-again.vercel.app/updateBlog/${updatedId}`
         );
         if (!response.ok) {
           throw new Error("Failed to fetch blog");
@@ -75,7 +75,7 @@ const updatedId = () => {
       console.log(formData);
 
       const response = await fetch(
-        `http://localhost:5000/updatedBlogData/${blogs?._id}`,
+        `https://usama-mir-server-again.vercel.app/updatedBlogData/${blogs?._id}`,
         {
           method: "PATCH",
           headers: {
