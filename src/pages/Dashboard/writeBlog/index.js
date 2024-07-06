@@ -83,7 +83,7 @@ const index = () => {
   return (
     <div>
       <div className="max-w-[1200px] mx-auto">
-        <form className=" p-20" onSubmit={handleSubmit(onSubmit)}>
+        <form className="md:p-20 p-0 mt-5" onSubmit={handleSubmit(onSubmit)}>
           <div>
             <select
               className="select w-full input input-bordered"

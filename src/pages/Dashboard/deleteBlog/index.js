@@ -1,5 +1,5 @@
-import DashboardLayout from '@/pages/DashboardLayout/DashboardLayout';
-import React from 'react'
+import DashboardLayout from "@/pages/DashboardLayout/DashboardLayout";
+import React from "react";
 
 /* eslint-disable react-hooks/rules-of-hooks */
 /* eslint-disable @next/next/no-img-element */
@@ -8,7 +8,9 @@ import React from 'react'
 import { MdDelete } from "react-icons/md";
 import { useRouter } from "next/router";
 import { useContext, useEffect, useState } from "react";
-import { AuthContext } from '@/pages/Authentication/Authentication';
+import { AuthContext } from "@/pages/Authentication/Authentication";
+import Link from "next/link";
+import { FaPen } from "react-icons/fa6";
 
 async function fetchBlogData() {
   try {
@@ -62,25 +64,24 @@ const remove = () => {
           <div className="min-h-screen">
             <h1 className="text-3xl my-8 text-center font-bold uppercase text-green-500">
               {" "}
-              remove your Blog
+              Manage your Blog
             </h1>
             {data.map((blog) => (
               <>
-                <div className="flex justify-between bg-indigo-100 mb-5 md:w-2/4 w-full mx-auto">
-                  <img
-                    className="bg-green-500 w-20"
-                    src={blog?.image_1}
-                  ></img>
-                  <p className="my-auto">{blog?.title_1}</p>
+                <div className="flex justify-between bg-indigo-100 mb-5 md:w-3/4 w-full mx-auto">
+                  <img className="bg-green-500 w-20" src={blog?.image_1}></img>
+                  <p className="my-auto w-full text-center">{blog?.title_1}</p>
                   <button
-                    className="w-10 my-auto"
+                    className="my-auto btn btn-outline"
                     onClick={() => handleDelete(blog._id)}
                   >
                     <MdDelete className="text-3xl text-red-500"></MdDelete>
                   </button>
-                  {/* <button className="w-10 my-auto">
-                <Link href={`${products._id}`}><FaPen className="text-2xl text-red-500"></FaPen></Link>
-              </button> */}
+                  <button className="btn btn-outline ml-2 my-auto">
+                    <Link href={`/Dashboard/deleteBlog/${blog._id}`}>
+                      <FaPen className="text-xl text-red-500"></FaPen>
+                    </Link>
+                  </button>
                 </div>
               </>
             ))}
@@ -89,7 +90,9 @@ const remove = () => {
       ) : (
         <>
           <div className="min-h-screen text-center">
-            <h1 className="text-red-500">please login first to delete a blog</h1>
+            <h1 className="text-red-500">
+              please login first to delete a blog
+            </h1>
           </div>
         </>
       )}
@@ -99,10 +102,6 @@ const remove = () => {
 
 export default remove;
 
-
-
-
 remove.getLayout = function getLayout(page) {
-    return <DashboardLayout>{page}</DashboardLayout>;
-  };
-  
+  return <DashboardLayout>{page}</DashboardLayout>;
+};
